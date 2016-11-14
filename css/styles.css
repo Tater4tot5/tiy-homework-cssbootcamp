@@ -67,13 +67,18 @@ button {
   color: white;
 }
 
+.herobg {
+  background: url(../images/amy-home-web2.jpg) 10% grey;
+  height:400px;
+  overflow: hidden;
+}
 .hero {
   clear: both;
-  background: grey;
   color:white;
   padding: 80px 50px 70px;
   font-family: PT Serif;
 }
+
 
 .media  {
   padding: 10px 10px;
@@ -135,6 +140,7 @@ button {
   font-size: 10px;
   font-style: italic;
   display: block;
+  text-align: left;
 }
 
 
@@ -205,31 +211,124 @@ button {
     font-weight: bolder;
     letter-spacing: 2px;
     color: grey;
-
-
-}
-.employer {
-  background-color:grey;
 }
 
-footer {
-  background-color:#39474E;
-  color: white;
-  font-family: Open Sans;
-  font-size: 10px;
+.testimony {
+  margin: 20px;
 }
 
-
-footer h4 {
-  font-family: PT Serif;
-  font-size: 12px;
-  text-align: left;
-}
-
-footer ul {
-  text-align: left;
+.headshot {
   margin: 20px 10px;
 }
+
+.headshot img {
+  height: 90px;
+  border-radius: 100%;
+  border: orange solid 2px;
+  text-align: center;
+  display: inline;
+}
+
+.tealhead {
+  font-family: PT Serif;
+  color: #6FBBB7;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.titlehead {
+  font-family: PT Serif;
+  color: grey;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: light;
+}
+
+
+.greyheading {
+  line-height: 1.6;
+  margin-top:40px;
+}
+
+.testimonyleft {
+padding: 10px 20px;
+}
+
+.boldp {
+  font-family: PT Sans;
+  font-size: 13px;
+  color: grey;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline;
+}
+.testimonyp {
+  font-family: PT Sans;
+  font-size: 13px;
+  color: grey;
+  font-style: italic;
+  letter-spacing: .5px;
+  display: inline;
+
+}
+
+.CTA {
+  margin: 20px;
+}
+.employer {
+  background: url(../images/employers-image.jpg) 10% grey;
+  overflow: hidden;
+  text-align: center;
+}
+.employer img {
+  height:100px;
+  padding: 10px;
+}
+.whitehead {
+font-family: PT Serif;
+font-style: italic;
+color: white;
+font-size: 24px;
+font-weight: bolder;
+padding: 10px;
+}
+
+
+.employerp {
+  font-family: Open Sans;
+  font-size: 12px;
+  margin: 0px 10px 20px;
+  line-height: 1.8;
+  color: white;
+  padding: 0px 180px;
+}
+
+.footer {
+  background-color: #39474E;
+  color: white;
+  padding:10px 20px;
+}
+
+footer li{
+  font-family: Open Sans;
+  font-size: 10px;
+  text-align: left;
+  font-weight: 100;
+}
+
+
+.footerhead {
+  font-family: PT Serif;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.footerlist {
+  text-decoration: none;
+}
+
+
 .footerlogo {
   display: inline;
   height: 55px;
