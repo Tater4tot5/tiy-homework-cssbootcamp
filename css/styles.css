@@ -1,0 +1,240 @@
+header{
+  background-color:#39474E;
+  text-align: center;
+  height: 80px;
+  overflow: hidden
+}
+
+.headerlogo {
+  height:55px;
+  float: left;
+  margin:20px 30px;
+}
+.nav-links-left li {
+  display: inline;
+  float: left;
+  padding: 25px 10px;
+}
+
+.nav-links-left a {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    color:white;
+}
+
+.nav-links-right {
+  float:right;
+}
+
+.nav-links-right li {
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+
+.nav-links-right a {
+  font-size: 10px;
+  font-family: Open Sans;
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  padding: 20px 10px 40px;
+
+}
+
+button {
+ background-color: #6FBBB7;
+ border-radius: 5px;
+ padding: 5px;
+ margin: 5px 5px 10px;
+ font-size: 10px;
+ font-family: Open Sans;
+ text-align: center;
+ border-style: none;
+ color: white;
+}
+
+.watchvid a{
+  color: white;
+  padding-right: 25px;
+  font-size: 12px;
+}
+
+.cta a{
+  color: white;
+}
+
+.hero {
+  clear: both;
+  background: grey;
+  color:white;
+  padding: 80px 50px 70px;
+  font-family: PT Serif;
+}
+
+.media  {
+  padding: 10px 10px;
+  background: #EEEEEE;
+  margin: 0;
+  border-bottom: lightgrey solid 1px;
+  clear: both;
+}
+
+.pressicons div{
+  display: inline;
+  text-align: center;
+}
+
+.mediaimg img{
+  width:12%;
+
+}
+
+.infoandsignup {
+  padding: 30px 90px;
+}
+
+.greyheading {
+  font-family: PT Serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: grey;
+  margin: 10px 10px 15px;
+}
+
+.descriptive {
+  font-family: Open Sans;
+  font-size: 12px;
+  margin: 0px 10px 20px;
+  line-height: 1.8;
+}
+
+.formhead {
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+.formp {
+  font-size: 9px;
+  line-height: 2;
+}
+.form {
+  font-family: Open Sans;
+  background-color:#EEEEEE;
+  padding:10px 15px;
+  border-radius: 10px;
+  margin: 10px 5px 20px;
+  box-shadow: 1px;
+}
+
+.info-form label{
+  font-size: 10px;
+  font-style: italic;
+  display: block;
+}
+
+
+.classcontainer {
+  background-color: #EEEEEE;
+
+}
+.classoptions {
+  text-align: center;
+  margin:20 150px;
+  background-color: #EEEEEE;
+  clear: both;
+}
+
+.classicon {
+  display: inline-block;
+  margin: 15px 20px 50px;
+}
+
+.attention {
+  font-family: PT Serif;
+  font-style: italic;
+  color: grey;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.frontendclass {
+  font-family: PT Serif;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: orange;
+}
+
+.backendclass {
+  font-family: PT Serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #AF5C56;
+}
+
+.mobileclass {
+  font-family: PT Serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #D3B42B;
+}
+
+.uiclass {
+  font-family: PT Serif;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #2AA2AE;
+}
+
+.quoteheading {
+    font-family: PT Serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: grey;
+
+
+}
+.employer {
+  background-color:grey;
+}
+
+footer {
+  background-color:#39474E;
+  color: white;
+  font-family: Open Sans;
+  font-size: 10px;
+}
+
+
+footer h4 {
+  font-family: PT Serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+footer ul {
+  text-align: left;
+  margin: 20px 10px;
+}
+.footerlogo {
+  display: inline;
+  height: 55px;
+  margin: 20px 0px 5px;
+}
+.rightfooter {
+  text-align: right;
+}

@@ -2,47 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Project Template</title>
+    <title>CSS Bootcamp</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
-      <div class="header container">
-        <div class="row">
-        <a class="header logo" href="https://theironyard.com/">
-        <img src="images/TIYLOGO.gif"></a>
+      <div class="container header">
+        <a href="https://theironyard.com/">
+        <img class="headerlogo" src="images/iron-yard-logo.gif">
+        </a>
         <ul class="nav-links-left">
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href="https://www.theironyard.com/locations">Campuses</a></li>
+          <li><a href="https://www.theironyard.com/courses">Courses</a></li>
+          <li><a href="https://www.theironyard.com/corporate-training">Corporate Training</a></li>
         </ul>
         <ul class="nav-links-right">
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href="https://www.theironyard.com/about">About</a></li>
+          <li><a href="http://blog.theironyard.com/?_ga=1.50980011.324334350.1464625780">Blog</a></li>
+          <li><a href="https://www.theironyard.com/contact">Contact</a></li>
+          <li><button><a class="cta" href="https://academy.theironyard.com/get-started">Get Started</a></button></li>
         </ul>
-        <a class="btn" href="https://academy.theironyard.com/get-started">Get Started</a>
-      </div>
     </div>
     </header>
-    <div class="container-fluid CenterDiv">
-      <div class="herodiv">
-        <div class="row hero">
-          <div class="col-md-8">
+    <div class="container-fluid hero">
+    <div class="container hero">
+            <div class="row">
+            <div class="col-md-8">
             <h1>Where will your job take you?</h1>
             <p>Learn to code. Take charge of your career.</p>
             <br>
             <button class="watchvid">
-              <img class="" src="https://vimeo.com/171454101/">Watch the Video
+              <a href="https://vimeo.com/171454101/"><img src="images/play-icon.png">Watch the Video</a>
             </button>
           </div>
         </div>
+      </div>
+    </div>
+      <div class="container-fluid media">
+        <div class="container">
       <div class="row pressicons">
-        <div class="col-md-12 press">
-          <div class="container icon>">
+        <div class="col-md-12">
             <div class="mediaimg">
               <a href="https://www.theironyard.com/press"> <img src="images/atlantic-logo.png"></a>
             </div>
@@ -64,13 +68,216 @@
             <div class="mediaimg">
               <a href="https://www.theironyard.com/press"> <img src="images/wsj-logo.png"></a>
             </div>
+          </div>
+          </div>
         </div>
       </div>
+      <div class="row infoandsignup">
+        <div class="col-md-8 info">
+          <h2 class="greyheading">12-week code school</h2>
+          <p class="descriptive">Go from zero to job ready in an immersive environment. Learn the latest skills from industry professionals and connect with employers through our Career Support program.
+          </p>
+          <h2 class="greyheading">Free crash courses</h2>
+          <p class="descriptive">Our free, one-night crash courses are the perfect way to get your hands dirty with a fun project and gain the confidence to explore the world of programming.
+          </p>
+          <h2 class="greyheading">Corporate Training</h2>
+          <p class="descriptive">If you already lead or work on a development team, our recruiting, onboarding, reskilling and upskilling programs provide proven pathways to grow your team.
+          </p>
         </div>
+        <div class="col-md-4 signupform">
+          <div class="form">
+          <h4 class="formhead">Short on time?</h4>
+          <p class="formp">Want a quick overview explaining what we’re all about? We’ll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more.</p>
+          <form class="info-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="user_name"/>
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" name="user_name"/>
+            <label for= "email">Email Address</label>
+            <input type="email" id="email" name="user_name"/>
+            <label for= "phone">Phone Number</label>
+            <input type="phone" id="phone" name="user_name"/>
+            <button type="emailsheet">Email me the fact sheet</button>
+            </form>
+          </div>
+      </div>
+      </div>
+        <div class="container-fluid media">
+        <div class="row classoptions">
+          <div class="col-md-12">
+              <h2 class="attention">Discover our courses</h2>
+              <p class="descriptive">We offer learning programs that cover the core components of web development.<br>Each course is designed to help people reach their learning and career goals.</p>
+            <br>
+            <div class="classicon">
+              <a href="https://www.theironyard.com/courses#front-end-engineering"> <img src="images/front-end.png"></a>
+              <h4 class="frontendclass">front-end<br>engineering</h4>
+            </div>
+            <div class="classicon">
+              <a href="https://www.theironyard.com/courses#back-end-engineering"> <img src="images/backend.png"></a>
+              <h4 class="backendclass">back-end<br>engineering</h4>
+            </div>
+            <div class="classicon">
+              <a href="https://www.theironyard.com/courses#mobile-engineering"> <img src="images/mobile.png"></a>
+              <h4 class="mobileclass">mobile<br>engineering</h4>
+            </div>
+            <div class="classicon">
+              <a href="https://www.theironyard.com/courses#design"> <img src="images/interface.png"></a>
+              <h4 class="uiclass">interface<br>design</h4>
+            </div>
+        </div>
+        </div>
+      </div>
+<div class="container testimony">
+<div class="row testimony">
+  <div class="col-md-4">
+    <h2 class="quoteheading">what our students say</h2>
+      <h2 class="greyheading">"The Iron Yard gave me confidence and set me on a career path I'm proud of."</h2>
+    <p class="boldp"> - Jesse Crow</p><p class="testimonyp">UI Developer at IBM Design</p>
+      <button class="CTA"><a class="btn" href="https://www.theironyard.com/stories">See our student stories</a></button>
+    </div>
+    <div class="col-md-4 headshots">
+        <div class="headshot">
+          <img src="images/andrew-faircloth-thumb.png">
+        </div>
+        <p class="testimonyp">As a recent college grad, Andrew was on a path to a law degree when he realized it wasn't for him. He now works as a developer for an online ticketing company.</p>
+        <h2 class="tealhead">Alex Soper</h2>
+        <h3 class="titlehead"> UI Engineer</h3>
+    </div>
+    <div class="col-md-4 headshots">
+      <div class="headshot">
+          <img src="images/kelly-rose-thumb.jpg">
+        </div>
+        <p class="testimonyp">Kelley came from a marketing background and always admired great websites. Now she creates them as a Front-End Developer at a digital agency.</p>
+        <h2 class="tealhead">Kelley Rose</h2>
+        <h3 class="titlehead"> Front-End Developer</h3>
+      </div>
+  </div>
+  </div>
+  <div class="container employer">
+    <div class="employer">
+    <h2 class="whitehead">Employers</h2>
+    <p class="descriptive">We work with amazing companies around the world, connecting them with our graduates, training their developers and partnering with them to impact the communities around each of our campuses.</p>
+    <div>
+      <div class="col-md-4">
+        <img src="images/validic-logo.png">
+        <img src="images/active-network-logo.png">
+        <img src="images/ally-bank.png">
+        <img src="images/amazon.png">
+        <img src="images/att.png">
+        <img src="images/benefit.png">
+        <img src="images/blackbaud-logo.png">
+        <img src="images/bluei.png">
+    </div>
+      <div class="col-md-4">
+        <img src="images/microsoft.png">
+        <img src="images/boom.png">
+        <img src="images/bronto.png">
+        <img src="images/chaione.png">
+        <img src="images/coke.png">
+        <img src="images/emci.png">
+        <img src="images/Fuzz.png">
+        <img src="images/ibm.png">
+      </div>
+    </div>
+      <div class="col-md-4">
+        <img src="images/github-logo.png">
+        <img src="images/microsoft.png">
+        <img src="images/nd.png">
+        <img src="images/path.png">
+        <img src="images/poet.png">
+        <img src="images/prism.png">
+        <img src="images/redhat.png">
+        <img src="images/sparc.png">
+        <img src="images/spoon.png">
+      </div>
+  </div>
 
+    <div>
+      <button class="CTA"><a class="btn" href="https://www.theironyard.com/courses/advisory-board">Learn more about how we work with companies</a></button>
+    </div>
+    </div>
+    <div class="container questions">
+      <div class="row">
+      <div class="col-md-6">
+        <h2 class="quoteheading">Questions?</h2>
+          <h2 class="greyheading">Let's talk.</h2>
+        <p class="descriptive">Whether you're thinking about starting a new career, interested in learning more about our programs for individuals or businesses, or just want to chat, we're here and we'd love to connect with you. Shoot us an email or your phone number and we'll get back to you soon, or you can chat with us right away using the chat icon below.</p>
       </div>
+      <div class="col-md-3 signupform">
+          <div class="form">
+          <h4 class="formhead">Short on time?</h4>
+          <p class="formp">Want a quick overview explaining what we’re all about? We’ll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more.</p>
+          <form class="info-form">
+            <label for="name">Name</label>
+            <input type="text" id="first" name="user_name"/>
+            <label for="ln">Last Name</label>
+            <input type="text" id="last" name="user_name"/>
+            <label for= "phone">Phone Number</label>
+            <input type="phone" id="no" name="user_name"/>
+            <button type="emailsheet">Give me a ring</button>
+          </form>
+      </div>
+    </div>
+      <div class="col-md-3 signupform">
+        <div class="form">
+        <h4 class="formhead">Short on time?</h4>
+        <p class="formp">Want a quick overview explaining what we’re all about? We’ll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more.</p>
+        <form class="info-form">
+          <label for="name">Name</label>
+          <input type="text" id="fntwo" name="user_name"/>
+          <label for="ln">Last Name</label>
+          <input type="text" id="lntwo" name="user_name"/>
+          <label for= "email">Email Address</label>
+          <input type="email" id="email" name="user_name"/>
+          <button type="emailsheet">Email me</button>
+          </form>
+    </div>
+      </div>
+    </div>
+  </div>
 
     <footer>
+      <div class="container-fluid footer">
+        <div class="row footer">
+          <div class="col-md-2">
+            <h4>COURSES</h4>
+            <ul>
+              <li>Back-End Engineering</li>
+              <li>Design</li>
+              <li>Front-End Engineering</li>
+              <li>Moblie Engineering</li>
+              <li>Kid's Classes</li>
+              <li>Scholarships</li>
+              <li>Tuition</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>ABOUT</h4>
+            <ul>
+              <li>Our Story</li>
+              <li>History</li>
+              <li>The Iron Yard Team</li>
+              <li>Jobs at the Iron Yard</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>CORPORATE TRAINING</h4>
+            <ul>
+              <li>STORIES</li>
+              <li>BLOG</li>
+              <li>PRESS/NEWS</li>
+              <li>CONTACT</li>
+            </ul>
+          </div>
+          <div class="col-md-6 rightfooter">
+            <a href="https://theironyard.com/">
+            <img class="footerlogo" src="images/iron-yard-logo.gif">
+            </a>
+            <h6>2016 Iron Yard. All Rights Reserved<br>Privacy Policy|Terms of Use</h6>
+          </div>
+        </div>
+      </div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </footer>
   </body>
